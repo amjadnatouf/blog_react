@@ -54,7 +54,7 @@ const PostsList = ({ post, setPosts, posts, setFilterd, setShow }) => {
               {moment(post.timestamp).fromNow()}
             </span>
             <div>
-              {post.categories.map((cat, index) => (
+              {post.categories?.map((cat, index) => (
                 <span
                   className="mx-2 cursor-pointer"
                   key={index}
