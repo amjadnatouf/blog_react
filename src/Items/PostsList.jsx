@@ -53,6 +53,7 @@ const PostsList = ({ post, setPosts, posts, setFilterd, setShow }) => {
             <span className="mx-1 text-gray-600 dark:text-gray-300 capitalize">
               {moment(post.timestamp).fromNow()}
             </span>
+            {/*filter */}
             <div>
               {post.categories?.map((cat, index) => (
                 <span
