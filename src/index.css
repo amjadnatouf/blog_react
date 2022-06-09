@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.icon {
+  @apply w-8 h-8 rounded-sm flex items-center justify-center text-base text-gray-800;
+}
+.tag {
+  @apply px-3 py-1 text-sm border border-gray-200 rounded-sm transition hover:bg-blue-500 hover:text-white cursor-pointer;
+}
+.super {
+  @apply px-3 py-1 text-sm border border-gray-200 rounded-sm transition bg-blue-500 text-white cursor-pointer;
+}

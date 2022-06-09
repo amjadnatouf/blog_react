@@ -1,0 +1,49 @@
+{
+  "posts": [
+    {
+      "id": "12ewqdssa",
+      "title": "Blog post 1",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum repudiandae sint eos nostrum nisi minus necessitatibus culpa at similique tempora? Molestias natus quos magnam ipsum debitis consectetur quis, cumque ratione?",
+      "author": "Joakim",
+      "timestamp": [2022, 5, 15],
+      "categories": ["Travel", "Food"],
+      "imgURL": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1381&q=80"
+    },
+    {
+      "id": "sadfdfdas",
+      "title": "Blog post 2",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum repudiandae sint eos nostrum nisi minus necessitatibus culpa at similique tempora? Molestias natus quos magnam ipsum debitis consectetur quis, cumque ratione?",
+      "author": "Hans",
+      "timestamp": [2022, 2, 29],
+      "categories": ["Frontend", "Computers"],
+      "imgURL": "https://images.unsplash.com/photo-1515378960530-7c0da6231fb1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80"
+    },
+    {
+      "title": "After a Caribbean Hurricane, the Battle",
+      "body": "asdfas das dsa das d asd as dasd as d",
+      "timestamp": [2021, 9, 15],
+      "imgURL": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1364&q=80",
+      "categories": ["test"],
+      "author": "Tommy",
+      "id": "NFAwik6"
+    },
+    {
+      "title": "asdasd",
+      "body": "asd ddas dsa das sa das dsa ",
+      "imgURL": "https://images.unsplash.com/photo-1652113950084-44d663d8c057?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1354&q=80",
+      "categories": ["test"],
+      "author": "Tommy",
+      "id": "4zHemTl",
+      "timestamp": [2022, 3, 10]
+    },
+    {
+      "title": "hej",
+      "body": "asd as das dasd ",
+      "timestamp": [2021, 1, 20],
+      "imgURL": "https://images.unsplash.com/photo-1652113950084-44d663d8c057?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1354&q=80",
+      "categories": ["test"],
+      "author": "Joakim",
+      "id": "fAQVqPd"
+    }
+  ]
+}

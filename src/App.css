@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto+Slab:wght@800&display=swap&family=Roboto+Slab:wght@800&family=Saira+Condensed:wght@500&family=Staatliches&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #eee;
+}
+
+.logo {
+  font-family: "Staatliches", cursive;
+  color: #0063a5;
+}
+
+.nav-links {
+  border-color: #0063a5;
+}
+
+.btn {
+  width: 100%;
+  background-color: #0063a5;
+  padding: 0.7rem;
+  color: white;
+  margin-top: 1.9rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.1rem;
+}
