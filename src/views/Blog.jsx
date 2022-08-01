@@ -9,14 +9,23 @@ const Blog = () => {
   const [filterd, setFilterd] = useState([]);
   const [show, setShow] = useState(false);
   const [side, setSide] = useState([]);
+  const [error, setError] = useState(null);
+
+  const URL = "http://localhost:9999";
 
   const getData = async () => {
-    setLoading(true);
-    const res = await axios.get("http://localhost:3004/posts");
-    setPosts(res.data);
-    // console.log(posts);
-    setLoading(false);
+    try {
+      setError(null);
+      setLoading(true);
+      const res = await axios.get(`${URL}/posts`);
+      setPosts(res.data);
+    } catch (err) {
+      setError({ message: "Unable to fetch blog posts" });
+    } finally {
+      setLoading(false); // Sets loading to false on success or failure
+    }
   };
+
   useEffect(() => {
     getData();
   }, []);
@@ -30,9 +39,10 @@ const Blog = () => {
   return (
     <div>
       {loading && <p>Loading...</p>}
+      {error && <p style={{ color: "red" }}>{error.message}</p>}
       {!show ? (
         posts && (
-          <div className="grid grid-cols-3 gap-1">
+          <div className="grid grid-cols-3 gap-3">
             <div className="box col-start-1 col-span-2">
               {posts.map((post) => (
                 <PostsList

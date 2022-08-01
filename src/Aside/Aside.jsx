@@ -23,7 +23,7 @@ const Aside = ({ items, posts, show, setShow, setFilterd }) => {
     tag = tag.map((e) => e.toLowerCase());
     // console.log(items);
     const sort = items.filter((el) =>
-      el.categories.some((cat) => tag.includes(cat.toLowerCase()))
+      el.categories?.some((cat) => tag.includes(cat.toLowerCase()))
     );
     // console.log(sort);
     setFilterd(sort);

@@ -23,7 +23,7 @@ const PostsList = ({ post, setPosts, posts, setFilterd, setShow }) => {
     tag = tag.map((e) => e.toLowerCase());
     // console.log(tag);
     const sort = posts.filter((el) =>
-      el.categories.some((cat) => tag.includes(cat.toLowerCase()))
+      el.categories?.some((cat) => tag.includes(cat.toLowerCase()))
     );
     setFilterd(sort);
     setShow(true);
